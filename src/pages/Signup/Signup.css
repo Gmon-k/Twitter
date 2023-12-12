@@ -1,0 +1,70 @@
+
+.signup-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    width: 70%;
+    background: url('src/Images/bg.png') center/cover no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.right-side {
+    width: 30%;
+    padding: 20px;
+    background: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+    width: 50%;
+    height: 50px; /* Set a specific height for better visualization */
+    background: url('src/Images/logo.png') center/contain no-repeat;
+    box-sizing: border-box; /* Include the border in the overall width and height */
+}
+
+.form-container {
+    width: 80%;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+.input-field {
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px; 
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-button {
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
